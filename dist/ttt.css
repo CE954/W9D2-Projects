@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 330px;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0;
+    margin: 5px;
+}
+
+ul > li {
+    width: 90px;
+    height: 90px;
+    background-color: grey;
+    margin: 8px;
+}
+
+li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.o, .x {
+    background-color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
